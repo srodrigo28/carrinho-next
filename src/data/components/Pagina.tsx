@@ -1,10 +1,11 @@
 export interface PaginaProps{
     children: React.ReactNode;
     title?: string;
+    className?: any
 }
 export default function Pagina( props  : PaginaProps ){
     return(
-        <div className="w-screen h-screen bg-black">
+        <div className="">
             {props.children}
         </div>
     )

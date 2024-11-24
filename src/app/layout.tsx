@@ -49,10 +49,10 @@ export default function RootLayout({ children }: Readonly< { children: React.Rea
                 bg-blue-600 p-2 px-5 rounded-md 
                 hover:bg-green-700 text-white 
                   hover:scale-110 duration-300 hidden">
-                    Login
+                    Shop
                 </Link>
 
-                <Link href="/login" 
+                <Link href="/shop" 
                 className="
                 bg-blue-600 p-2 px-5 rounded-md 
                 hover:bg-green-700 text-white 
