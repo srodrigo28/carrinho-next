@@ -1,17 +1,36 @@
 'use client'
+import { createContext, useState } from "react"
+import { FaCartShopping } from "react-icons/fa6";
 
-import { createContext } from "react"
+interface ContextoCarrinhoProps{
+    number: number;
+    name?: string;
+    increment?:   any
+    decrementar?: any
+}
 
-const ContextoCarrinho = createContext<any>(null)
-const ContextoLogin = createContext<any>(null)
+const ContextoCarrinho = createContext<ContextoCarrinhoProps>( {} as any)
 
 export function ProvedorCarrinho(props: any){
+    const [number, setNumber] = useState(10)
+
+    const handleIncrement = (e: any) => {
+        e.preventDefault()
+
+        setNumber( number + 1)
+    }
+    const handleDescrement = (e: any) => {
+        e.preventDefault()
+        setNumber( number - 1)
+    }
+
     return (
         <div>
             <ContextoCarrinho.Provider 
                 value={{ 
-                    number: 10,
-                    name: 'Rodrigo'
+                    number: number,                
+                    increment:   handleIncrement,
+                    decrementar: handleDescrement
                 }}>
                 {props.children}
             </ContextoCarrinho.Provider>

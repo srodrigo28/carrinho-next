@@ -24,7 +24,7 @@ export default function RootLayout({ children }: Readonly< { children: React.Rea
   
   return (
     <html lang="pt-BR">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased `}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-hidden`}>
         <ProvedorCarrinho>
             <header className="bg-slate-800 p-5 flex items-center justify-around">
               <Link href="/" className="

@@ -1,16 +1,17 @@
 #### Application Cart Shop
 
 #### Dependences
-npm i @tabler/icons-react
-npm i @tabler/icons-react
-npm i react-table
+* React Icons
+```
+npm i react-icons
+```
+
+#### Implement use carrinho
+* 54min
 
 #### Ref.
-
-* icons
-```
-https://www.flaticon.com/search?word=shop
-```
+* Exemplo React icons 
+https://react-icons.github.io/react-icons/icons/fa6/
 
 https://www.youtube.com/watch?v=PqRe0Q9b5QI
 
