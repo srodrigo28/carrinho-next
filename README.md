@@ -12,6 +12,7 @@ npm i react-icons
 #### Ref.
 * Exemplo React icons
 * git ref
+* Exemplos Api
 ```
 https://github.com/cod3rcursos/esquenta-julho-2024/tree/main/app-web 
 ```
