@@ -14,6 +14,8 @@ npm i react-icons
 * git ref
 * Exemplos Api
 ```
+https://jsonplaceholder.typicode.com/posts
+```
 https://github.com/cod3rcursos/esquenta-julho-2024/tree/main/app-web 
 ```
 

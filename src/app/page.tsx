@@ -4,12 +4,8 @@ import Pagina from "@/data/components/Pagina";
 
 export default function Home() {
   return (
-      <Pagina>
-      <div className="text-white flex flex-col">
-        <div className="text-5xl pt-12 pl-12 text-black bg-blue-700 h-screen overflow-hidden">
-          <Carrinho />  
-        </div>  
+      <div className="text-white flex flex-col items-center">
+        <h1 className="text-black">oi</h1>
       </div>
-    </Pagina>
   );
 }
