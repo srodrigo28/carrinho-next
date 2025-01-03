@@ -6,6 +6,16 @@
 npm i react-icons
 ```
 
+#### Exemplos Listagem Api
+* Listagem Fetch Simples
+<img src="./screens/3-Listar-FetchApi-Simples.png" alt="">
+
+* Listagem Fetch Async Await
+<img src="./screens/1-Listar-FetchApiAsync.png" alt="">
+
+* Listagem Axios
+<img src="./screens/2-Listar-Axios.png" alt="">
+
 #### Implement use carrinho
 * 54min
 
